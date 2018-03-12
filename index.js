@@ -1,7 +1,7 @@
 const koa = require('koa');
 const app = new koa();
 
-app.use(async ctx => {ctx.body = 'Hello, I am KOA'});
+app.use(async ctx => {ctx.body = 'Hello, I am KOA!'});
 
 app.listen(3000, (err) => {
   if (err) {
